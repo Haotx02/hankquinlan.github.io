@@ -1,3 +1,10 @@
-name: Hank Quinlan, Horrible Cop
+title: Yufeng Hao
+name: Yufeng Hao
+email: yufenghao@email.com
+description: >-
+  Systems Engineering @ Cornell | Interested in Optimization, Risk Analysis, and Data Science.
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
+baseurl: ""
+url: "https://haotx02.github.io"
+github_username: haotx02
