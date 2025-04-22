@@ -5,6 +5,6 @@ description: >-
   Systems Engineering @ Cornell | Interested in Optimization, Risk Analysis, and Data Science.
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
-baseurl: ""
+baseurl: "/hankquinlan.github.io"
 url: "https://haotx02.github.io"
 github_username: haotx02
