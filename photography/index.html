@@ -1,1 +1,29 @@
+---
+layout: default
+title: My Photography
+---
 
+<h1>Travel & Photography</h1>
+
+<p>Here are some moments I've captured during my travels and everyday life. 📷</p>
+
+<div class="gallery">
+  <img src="{{ site.baseurl }}/photos/photo1.jpg" alt="Photo 1">
+  <img src="{{ site.baseurl }}/photos/photo2.jpg" alt="Photo 2">
+  <img src="{{ site.baseurl }}/photos/photo3.jpg" alt="Photo 3">
+</div>
+
+<style>
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 20px;
+    margin-top: 30px;
+  }
+
+  .gallery img {
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.1);
+  }
+</style>
