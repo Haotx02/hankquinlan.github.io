@@ -7,7 +7,7 @@
 
     <style>
   body {
-    font-family: "Helvetica Neue", "Segoe UI", sans-serif;
+    font-family: "Times New Roman", serif;
     max-width: 850px;
     margin: auto;
     padding: 40px 20px;
@@ -40,21 +40,37 @@
   nav a:hover {
     text-decoration: underline;
   }
-
+      
   footer {
-    text-align: center;
-    font-size: 0.9em;
-    color: #888;
     margin-top: 60px;
+    padding-top: 20px;
+    border-top: 1px solid #ccc;
+    text-align: center;
+    font-size: 0.95em;
+    color: #666;
+  }
+
+  footer ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  }
+
+  footer li {
+    display: inline;
   }
 
   footer a {
-    color: #888;
+    color: #666;
     text-decoration: none;
+    font-weight: bold;
   }
 
   footer a:hover {
     color: #000;
+    text-decoration: underline;
   }
 </style>
 
